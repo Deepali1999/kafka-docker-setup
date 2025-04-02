@@ -29,3 +29,7 @@ docker compose up -d
 ```
 ./kafks-topics.sh --bootstrap-server broker:29092 --describe --topic sample-topic
 ```
+- To see the details about all topic
+```
+./kafks-topics.sh --bootstrap-server broker:29092 --describe 
+```
